@@ -1,0 +1,25 @@
+{
+  "name": "fake-payment-gateway",
+  "version": "1.0.0",
+  "description": "fake api untuk trasaksi payment gateway ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bgdar/Api.git"
+  },
+  "author": "bgdar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bgdar/Api/issues"
+  },
+  "homepage": "https://github.com/bgdar/Api#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.1"
+  }
+}
